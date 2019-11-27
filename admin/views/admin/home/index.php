@@ -1,28 +1,26 @@
-<div class="contentwidth">
-    <div class="row">
-        <div class="col-2 border border-primary">
-            <br>
-            <div style="border: 1px solid black; width: 150px; height: 150px; border-radius: 100%; margin: 0 auto"></div>
-            <p style="text-align: center">
-                Hello, Arcadia
-                <br>
-                <strong style="text-align: center">Status | Status</strong>
-            </p>
-        </div>
+<div style="width: 15%; height: 550px; float: left; border: 1px solid black">
 
-        <div class="col-10 border border-danger">
-            <h1>Dashboard</h1>
-        </div>
+    <div style="padding-top: 6%" align="center">
+        <div style="border: 1px solid black; width: 125px; height: 125px; border-radius: 100%"></div>
+        <p>Hi, Arcadia</p>
     </div>
 
-    <div class="row">
-        <div class="col-2 border border-warning">
-            <h2>Menu</h2>
-            <hr>
-        </div>
+    <hr width="95%">
+    <p align="center">Dashboard</p>
+    <hr width="95%">
 
-        <div class="col-10 border border-secondary">
-            <h2>Body</h2>
-        </div>
-    </div>
+    <ul>
+        <li>Home</li>
+        <br>
+        <li>Supply</li>
+        <br>
+        <li>Users</li>
+    </ul>
+</div>
+
+<div style="width: 85%; height: 550px; float: left; border: 1px solid black">
+
+    <hr width="95%">
+    <p align="center">Body</p>
+    <hr width="95%">
 </div>
