@@ -18,6 +18,35 @@
 </head>
 
 <body>
-    <div style="border: 1px solid black" class="header-nav">
-        <h3><img style="width: 35px; height: 35px" src="assets/favicon.ico" alt=""> Arcadia</h3>
+    <div id="mySidenav" class="sidenav">
+        <div align="center">
+            <img src="assets/no-avatar.png" style="width: 150px; height: 150px; border-radius: 100%" alt="">
+        </div>
+        <p align="center">
+            Hello, Arcadia
+            <br>
+            Status
+        </p>
+
+        <a style="text-decoration: none" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a style="text-decoration: none" href="#">About</a>
+        <a style="text-decoration: none" href="#">Services</a>
+        <a style="text-decoration: none" href="#">Clients</a>
+        <a style="text-decoration: none" href="#">Contact</a>
     </div>
+
+    <script>
+        document.getElementById('main').addEventListener('click', closeNav);
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "230px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "lightgrey";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
